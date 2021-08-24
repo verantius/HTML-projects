@@ -1,0 +1,123 @@
+body
+{
+	background-color: #5496c9;
+	color: #efefef;
+    font-size: 17px;
+	
+	font-family: 'Roboto', sans-serif;
+}
+
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	color: #C0D06F;
+	margin: 20px;
+}
+h2
+{
+	font-size: 26px;
+	
+}
+
+.navbar
+{
+	min-height: 63px;
+	min-width: 100%;
+	
+}
+
+.loremP
+{
+	background-color: #26b970 !important;
+	position: fixed;
+	
+}
+
+.center
+{
+	padding: 0px !important;
+	text-align: center;
+	position: relative;
+	color: white;
+}
+
+.centered
+{
+	position: absolute;
+	top: 60%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	font-size: 7vw;
+	color: white;
+}
+.centered:hover
+{
+	color: transparent;
+}
+
+.flexbox-container
+{
+	padding: 40px;
+	border: 20px solid red;
+	display: flex;
+	flex-wrap: wrap;
+	
+	flex-direction: row;
+	text-align: center;
+	justify-content:center;
+
+}
+.flexbox-container div
+{
+	margin: 1px;
+	border: 1px solid blue;
+}
+
+.colored
+{
+	background-color: #26b970 !important;
+}
+
+.bg-gray
+{
+	background-color: #1c93b8;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	
+	
+}
+
+.flexbox-container
+{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	
+}
+.container
+{
+	/* border: 3px solid rgb(192, 214, 214); */
+	padding: 2px;
+	
+}
+.container img
+{
+	width: 100%;
+	border: 6px solid rgb(255, 255, 255);
+
+}
+.dex
+{
+	border: 1px solid rgb(192, 214, 214);
+}
+#clock
+ {
+	font-family: 'Orbitron', sans-serif;
+	color: #d3d8c0;
+	font-size: 20px;
+	text-align: right;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	padding-right: 20px;
+  }
